@@ -13,7 +13,7 @@ int main()
     for (int i = 0; i < N_ELEMENTS; i++)
     {
         std::cout << "Ertek:" << b[i] << std::endl;
-    }    
+    }
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag = 0;
     for (int i = 0; i < N_ELEMENTS; i++)
@@ -22,5 +22,6 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "Vege" << std::endl;
     return 0;
 }
